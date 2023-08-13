@@ -349,6 +349,25 @@ body {
   }
 }
 
+@media only screen and (max-width: 900px) {
+  .site-footer-container {
+    flex-direction: column;
+  }
+
+  .site-logo-site-footer {
+    margin-bottom: 24px;
+  }
+
+  .sitenav-site-footer .sitenav-list {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .sitenav-site-footer .sitenav-item {
+    margin: 8px 24px;
+  }
+}
+
 @media only screen and (max-width: 800px) {
   .hero-container {
     flex-wrap: wrap;
